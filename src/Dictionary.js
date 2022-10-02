@@ -16,6 +16,7 @@ export default function Dictionary() {
   function handlKeyworldChange(event) {
     setKeyword(event.target.value);
   }
+  // documentation  dictionaryapi.dev/
   return (
     <div className="dictionary">
       <form onSubmit={search}>
