@@ -7,7 +7,17 @@ function App() {
       <div className="container">
         <Dictionary />
       </div>
-      <div>Coded by Olesia Kononova</div>
+      <div className="coded">
+        Coded by Olesia Kononova check on{" "}
+        <a
+          className="githubLink"
+          href="https://github.com/Olesia20/Dictionary-app"
+          target="_blank"
+        >
+          {" "}
+          GitHub
+        </a>
+      </div>
     </div>
   );
 }

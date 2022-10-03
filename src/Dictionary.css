@@ -1,3 +1,27 @@
 .dictionary {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+.search {
+  margin-right: 10px;
+}
+input {
+  border: 3px solid rgb(112, 19, 92);
+  border-radius: 5px;
+}
+.button {
+  background: rgb(112, 19, 92);
+  color: aliceblue;
+}
+.word {
+  color: rgb(61, 105, 12);
+}
+.example {
+  color: rgb(140, 123, 45);
+}
+.coded {
+  text-align: center;
+  margin-top: 80px;
+}
+.githubLink {
+  color: rgb(162, 109, 3);
 }

@@ -22,13 +22,15 @@ export default function Dictionary() {
   // documentation  dictionaryapi.dev/
   return (
     <div className="dictionary">
+      <h1>Dictionary</h1>
       <form onSubmit={search}>
         <input
+          className="search"
           type="search"
           placeholder="Type a word"
           onChange={handlKeyworldChange}
         />
-        <input type="submit" value="search" />
+        <input className="button" type="submit" value="search" />
       </form>
       <Results results={results} />
     </div>
