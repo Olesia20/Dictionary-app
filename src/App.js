@@ -13,6 +13,7 @@ function App() {
           className="githubLink"
           href="https://github.com/Olesia20/Dictionary-app"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           GitHub
