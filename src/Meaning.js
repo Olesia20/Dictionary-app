@@ -12,7 +12,7 @@ export default function Meaning(props) {
           </div>
         );
       })}
-      <h4>Synonyms:</h4>
+
       <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
