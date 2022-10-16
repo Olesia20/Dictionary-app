@@ -6,7 +6,7 @@ export default function Synonyms(props) {
         {props.synonyms.map(function (synonym, index) {
           return (
             <p key={index}>
-              Synonyms:{""} {synonym}
+              Synonym:{""} {synonym}
             </p>
           );
         })}
