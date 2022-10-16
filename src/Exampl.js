@@ -1,6 +1,5 @@
 import React from "react";
 export default function Exampl(props) {
-  console.log(props.exampl);
   if (props.exampl) {
     return (
       <div>

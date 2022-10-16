@@ -1,7 +1,10 @@
 import React from "react";
 import Synonyms from "./Synonyms";
 import Exampl from "./Exampl";
+import Antonyms from "./Antonyms";
 export default function Meaning(props) {
+  console.log(props.meaning.antonyms);
+
   return (
     <div className="meaning">
       <h4>{props.meaning.partOfSpeech} </h4>
@@ -16,6 +19,8 @@ export default function Meaning(props) {
           </div>
         );
       })}
+      <Antonyms antonyms={props.meaning.antonyms} />
+
       <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
