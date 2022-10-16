@@ -9,6 +9,6 @@ export default function Synonyms(props) {
       </ul>
     );
   } else {
-    return <div>"Not found"</div>;
+    return null;
   }
 }
