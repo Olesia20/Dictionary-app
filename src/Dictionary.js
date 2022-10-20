@@ -5,7 +5,7 @@ import Results from "./Results";
 import Photos from "./Photos";
 // documentation  dictionaryapi.dev/
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("sunset");
+  let [keyword, setKeyword] = useState("ocean");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
