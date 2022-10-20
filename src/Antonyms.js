@@ -6,7 +6,8 @@ export default function Antonyms(props) {
         {props.antonyms.map(function (antonym, index) {
           return (
             <p key={index}>
-              Antonyms:{""} {antonym}
+              <strong className="antonyms2">Antonyms: </strong>
+              {antonym}
             </p>
           );
         })}
