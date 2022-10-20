@@ -45,3 +45,7 @@ input {
 .antonyms2 {
   color: rgb(144, 78, 2);
 }
+img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
